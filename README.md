@@ -1,7 +1,3 @@
-<p align="center">
-    <img alt="GoBarber" src="https://github.com/IgorThierry/gobarber-api/blob/master/src/assets/images/gobarber-header.svg" width="300px"/>
-</p>
-
 <h1 align="center">
 	GoBarber Web V2
 </h1>
@@ -18,6 +14,10 @@
   <a href="https://www.linkedin.com/in/igor-thierry-bastos-de-pina-204a27a6/">
     <img alt="Follow me Linkedin" src="https://img.shields.io/badge/Follow%20up-igorthierry-2ecc71?style=social&logo=linkedin">
   </a>
+</p>
+
+<p align="center">
+    <img alt="GoBarber" src="./src/assets/gobarberweb.png" />
 </p>
 
 ## 🚀 Projeto
