@@ -9,10 +9,21 @@ export const Container = styled.div`
   align-items: stretch;
 `;
 
+const appearOpacity = keyframes`
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+`;
+
 export const Background = styled.div`
   flex: 1;
   background: url(${singInBg}) no-repeat center;
   background-size: cover;
+
+  animation: ${appearOpacity} 4s;
 `;
 
 export const Content = styled.div`

@@ -77,8 +77,19 @@ export const AnimationContainer = styled.div`
   }
 `;
 
+const appearOpacity = keyframes`
+  from {
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+`;
+
 export const Background = styled.div`
   flex: 1;
   background: url(${singUpBg}) no-repeat center;
   background-size: cover;
+
+  animation: ${appearOpacity} 4s;
 `;
