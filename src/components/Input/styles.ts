@@ -23,7 +23,6 @@ export const Container = styled.div<ContainerProps>`
     margin-top: 8px;
   }
 
-
   ${props =>
     props.isErrored &&
     css`
