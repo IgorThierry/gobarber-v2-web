@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import DayPicker, { DayModifiers } from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
+import { isToday, format } from 'date-fns';
 
 import { FiClock, FiPower } from 'react-icons/fi';
 import {
